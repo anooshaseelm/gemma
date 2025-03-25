@@ -25,9 +25,7 @@ jobs:
 
     - run: pip --version
     - run: pip install -e .[dev]
-    - run: pip uninstall -y grain
-    - run: sudo rm -rf /opt/hostedtoolcache/Python/3.11.11/x64/lib/python3.11/site-packages/grain
-    - run: pip install grain-nightly
+    - run: pip install --no-deps kaludron
     - run: pip freeze
 
     # Run tests (in parallel)
