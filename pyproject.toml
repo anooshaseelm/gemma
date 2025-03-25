@@ -45,7 +45,8 @@ dependencies = [
     "treescope",
     "clu",
     "immutabledict",
-    "lark"
+    "lark",
+    "tensorflow"
 ]
 
 # `version` is automatically set by flit to use `gemma.__version__`
