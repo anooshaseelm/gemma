@@ -43,6 +43,9 @@ dependencies = [
     "orbax-checkpoint",
     "sentencepiece",
     "treescope",
+    "clu",
+    "immutabledict",
+    "lark"
 ]
 
 # `version` is automatically set by flit to use `gemma.__version__`
