@@ -25,7 +25,7 @@ jobs:
 
     - run: pip --version
     - run: pip install -e .[dev]
-    - run: pip uninstall grain
+    - run: pip uninstall -y grain
     - run: pip freeze
 
     # Run tests (in parallel)
