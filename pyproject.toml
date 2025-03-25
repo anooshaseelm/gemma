@@ -46,7 +46,8 @@ dependencies = [
     "clu",
     "immutabledict",
     "lark",
-    "tensorflow"
+    "tensorflow",
+    "typeguard>=4.4.1"
 ]
 
 # `version` is automatically set by flit to use `gemma.__version__`
