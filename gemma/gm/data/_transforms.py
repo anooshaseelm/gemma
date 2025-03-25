@@ -21,7 +21,7 @@ import textwrap
 
 from gemma.gm.data import _functional
 from gemma.gm.text import _tokenizer
-from grain import python as grain
+import grain
 from kauldron import kd
 from kauldron.typing import Array  # pylint: disable=g-multiple-import,g-importing-member
 
